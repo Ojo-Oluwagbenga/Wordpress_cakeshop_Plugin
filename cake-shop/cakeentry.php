@@ -120,7 +120,7 @@ function plugin_auth(){
     fclose($myfile);
     add_action('wp_enqueue_scripts', 'cks_add_scripts');
 
-    die('ok');
+    die('Key authenticated successfully');
 
   }
   exit();

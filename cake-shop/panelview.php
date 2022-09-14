@@ -67,7 +67,7 @@
                 data: mdata,
             });
             req.done(function( msg ) {
-                console.log(msg);
+                alert(msg);
             });
             req.fail(function(jqXHR, textStatus ) {
                 console.log( "Request failed: " + textStatus );
